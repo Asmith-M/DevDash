@@ -4,7 +4,7 @@ import { AppBar, Box, Drawer, Toolbar, Typography, IconButton, Avatar, Tooltip, 
 import MenuIcon from '@mui/icons-material/Menu';
 import LightModeIcon from '@mui/icons-material/LightMode';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
-import { ColorModeContext } from './theme/themeContext';
+import { ColorModeContext } from './theme/ThemeContext';
 import { useAuth } from './auth/AuthProvider';
 import AuthButton from './components/AuthButton';
 import DashboardIcon from '@mui/icons-material/Dashboard';
